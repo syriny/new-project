@@ -48,8 +48,8 @@ git push origin development
 ### 7. Create a pull request to merge your changes into the main branch:
 
 ```
-git checkout main
-git pull origin main
+git switch master
+git pull origin master
 git merge development
-git push origin main
+git push origin master
 ```
